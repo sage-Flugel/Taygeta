@@ -2,7 +2,7 @@
 
 int main() {
     float a = 0;
-    scanf("%lf",&a);
+    scanf("%f",&a);
     printf("%.2lf",a);
     return 0;
 }
