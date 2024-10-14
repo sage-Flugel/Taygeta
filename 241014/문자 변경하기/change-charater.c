@@ -3,6 +3,6 @@
 int main() {
     char a = 'C';
     a = 'T'
-    printf("%c",a)
+    printf("%c",a);
     return 0;
 }
