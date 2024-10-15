@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    char c = 'C';
+    char c = 'A';
     double a =0, b = 0;
-    scanf("%c\n%lf\nlf",&c,&a,&b);
-    
+    scanf("%c",&c);
+    scanf("%d",&a);
+    scanf("%d",&b);
     printf("%c\n%.2lf\n%.2lf",c,a,b);
 
     return 0;
