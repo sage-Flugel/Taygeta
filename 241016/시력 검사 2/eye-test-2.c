@@ -4,7 +4,7 @@ int main() {
     float a;
     scanf("%f",&a);
 
-    if(a >= 1.5)
+    if(a >= 1.0)
         printf("High");
     else if(a >= 0.5)
         printf("Middle");
