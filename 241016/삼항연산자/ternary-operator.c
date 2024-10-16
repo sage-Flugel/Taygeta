@@ -5,7 +5,7 @@ int main() {
     
     scanf("%d",&a);
   
-    a = a == 100 ? 0:1;
+    a = a == 100 ? 1:0;
 
     if (a == 1)
         printf("pass");
