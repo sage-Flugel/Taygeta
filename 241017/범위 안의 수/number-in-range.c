@@ -7,7 +7,7 @@ int main() {
     if (10 <= a && a <=20)
         printf("yes");
     else
-        printf("no")
+        printf("no");
 
     return 0;
 }
