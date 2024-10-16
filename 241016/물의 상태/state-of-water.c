@@ -6,10 +6,11 @@ int main() {
 
     if (temp > 100)
         printf("vapor");
-    else if (temp < 100)
-        printf("water");
     else if (temp < 0)
         printf("ice");
+    else (temp < 100)
+        printf("water");
+    
 
     return 0;
 }
