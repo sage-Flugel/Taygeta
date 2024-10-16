@@ -5,7 +5,7 @@ int main() {
     
     scanf("%d",&a);
   
-   printf((a == 1)) ? t:f;
+    printf((a == 1)) ? t:f;
 
    
 
