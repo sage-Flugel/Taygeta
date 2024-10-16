@@ -4,7 +4,7 @@ int main() {
     int h,w,b;
 
     scanf("%d %d",&h,&w);
-    b = w/((h/100)*(h/100))
+    b = w/((h/100)*(h/100));
 
     printf("%d\n",b);
 
