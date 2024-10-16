@@ -8,7 +8,7 @@ int main() {
         printf("vapor");
     else if (temp < 100)
         printf("water");
-    else  
+    else if (temp < 0)
         printf("ice");
 
     return 0;
