@@ -11,6 +11,6 @@ int main() {
         min = b;
     else
         min = c;
-    printf("%d",c);
+    printf("%d",min);
     return 0;
 }
