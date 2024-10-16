@@ -8,6 +8,8 @@ int main() {
         min = b;
     else
         min = c;
+    if( a <= min)
+        min = a;
     printf("%d %d",a==min,a == b && b == c && a== c);
 
 
