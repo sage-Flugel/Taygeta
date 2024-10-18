@@ -9,6 +9,9 @@ int main() {
             printf("100000");
         else if (b>= 90)
             printf("50000");
+        else
+            printf("%d",1 > 2);
+
     }
     else
         printf("%d",1 > 2);
