@@ -7,7 +7,7 @@ int main() {
 
     if(a1 > b1)
         printf("A");
-    else if (b1 < a1)
+    else if (b1 > a1)
         printf("B");
     else{
         if (a2 > b2)
