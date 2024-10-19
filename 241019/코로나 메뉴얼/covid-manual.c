@@ -23,7 +23,7 @@ int main() {
     else
         k+=1;
 
-    if (k == 6)
+    if (k >= 4)
         printf("E");
     else
         printf("N");
