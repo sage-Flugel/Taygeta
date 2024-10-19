@@ -9,19 +9,19 @@ int main() {
     if(a1 == 'Y' && a2 >= 37)
         k += 2;
     else
-        k+=1;
+        k+=0;
     
     scanf("%c %d",&b1,&b2);
     if(b1 == 'Y' && b2 >= 37)
         k += 2;
     else
-        k+=1;
+        k+=0;
 
     scanf("%c %d",&c1,&c2);
     if(c1 == 'Y' && c2 >= 37)
         k += 2;
     else
-        k+=1;
+        k+=0;
 
     if (k >= 4)
         printf("E");
