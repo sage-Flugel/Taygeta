@@ -5,11 +5,8 @@ int main() {
     int a;
     scanf("%d",&a);
 
-    for (a; a<101; a++)
-        printf("%d ",&a);
-
-
-
+    for (int i = a; i< 101; i++)
+        printf("%d",&i);
 
     return 0;
 }
