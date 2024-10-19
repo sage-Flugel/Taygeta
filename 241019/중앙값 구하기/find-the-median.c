@@ -4,18 +4,24 @@ int main() {
     int a,b,c,mid;
     scanf("%d %d %d",&a,&b,&c);
 
-    if (a > b && c < a)
-        mid = a;
-    if (a < b && c < a)
-        mid = a;
-    if (b > a && b < c)
+
+//a < b < c
+    if (a < b && b < c)
         mid = b;
-    if (b < a && b < c)
+    if (c < b && b < a)
         mid = b;
-    if (c > a && c < b)
+//b < a < c
+    if (b < a && a < c)
+        mid = a;
+    if (c < a && a <b)
+        mid = a;
+// a < c < b
+    if (a < c && c < b)
         mid = c;
-    if (c < a && c < b)
+    if (b < c && c < a)
         mid = c;
+    
+
 
     printf("%d",mid);
 
