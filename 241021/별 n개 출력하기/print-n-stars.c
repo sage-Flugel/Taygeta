@@ -4,7 +4,7 @@ int main() {
     int a,i=0;
     scanf("%d",&a);
 
-    while(i < 5){
+    while(i < a){
         printf("*\n");
         i++;
     }
