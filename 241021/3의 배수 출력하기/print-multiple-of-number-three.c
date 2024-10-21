@@ -5,6 +5,7 @@ int main() {
     scanf("%d",&a);
     while(i<=a){
         printf("%d ",3*i);
+        i++;
     }
     return 0;
 }
