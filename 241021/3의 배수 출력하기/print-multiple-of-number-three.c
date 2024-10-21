@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int a,i=0;
     scanf("%d",&a);
     while(i<=a){
         printf("%d ",3*i);
