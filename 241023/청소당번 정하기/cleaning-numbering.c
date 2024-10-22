@@ -18,7 +18,7 @@ int main() {
                     bath++;
                 }
                 else{
-                    bath++;
+                    hall++;
                 } 
             }
             else{
