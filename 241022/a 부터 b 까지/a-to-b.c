@@ -4,14 +4,14 @@ int main() {
     int a,b,i,k=0;
     scanf("%d %d",&a,&b);
 
-    for(i =a;i<=b;i++){
+    for(i = a;a <= b;i++){
         if(i%2==1){
-            k*=2;
+            a*=2;
         }
         else{
-            k+=3;
+            a+=3;
         }
-        printf("%d ",k);
+        printf("%d ",a);
     }
     return 0;
 }
