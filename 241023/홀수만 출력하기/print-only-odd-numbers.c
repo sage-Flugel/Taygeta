@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     for(i = 1; i <= a;i++){
         scanf("%d",&k);
-        if(k % 3 == 0 || k % 2 == 1)
+        if(k % 3 == 0 && k % 2 == 1)
             printf("%d\n",k);
         }
 
