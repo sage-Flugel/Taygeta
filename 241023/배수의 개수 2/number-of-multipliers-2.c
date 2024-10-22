@@ -5,7 +5,7 @@ int main() {
     for(i = 0; i<10;i++){
         scanf("%d",&a);
         if(a % 2 == 1)
-            cnt++;
+            cnt+=1;
     }
     printf("%d\n",cnt);
 
