@@ -13,7 +13,10 @@ int main() {
     
     for(i = 0; i<day;i++){
         if(i%2==0){
-            if(i % 12 == 0 || i % 3 == 0)
+            if(i % 3 == 0)
+                hall++;
+
+            else if(i % 12 == 0)
                 bath++;
             else
                 clas++;
