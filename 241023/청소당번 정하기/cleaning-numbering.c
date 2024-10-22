@@ -38,6 +38,6 @@ int main() {
 
         
     }
-    printf("%d %d %d",clas,hall,bath);
+    printf("%d %d %d",clas,hall,bath-1);
     return 0;
 }
