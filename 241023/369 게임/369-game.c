@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
 
     for(i = 1; i<=a;i++){
-        if(i % 3 ==0 || i / 10 == 3 || i / 10 == 6 || i / 10 == 9)
+        if(i % 3 ==0 || i / 10 == 3 )
             printf("0 ");
         else
             printf("%d ",i);
