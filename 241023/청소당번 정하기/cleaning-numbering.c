@@ -25,7 +25,7 @@ int main() {
                 clas++;
             }
         }
-        if else(i%3==0){
+        else if(i%3==0){
             if(i%12==0){
                 bath++;
             }
@@ -33,7 +33,7 @@ int main() {
                 hall++;
             }
         }
-        if else(i%12==0)
+        else if(i%12==0)
             bath++;
 
         
