@@ -3,7 +3,7 @@
 int main() {
     int a,i;
     scanf("%d",&a);
-    for(i = a; 1<=100;i++){
+    for(i = a; i<=100;i++){
         if(i > 90)
             printf("A ");
         else if(i > 80)
