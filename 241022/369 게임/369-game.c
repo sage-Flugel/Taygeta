@@ -6,7 +6,7 @@ int main() {
 
     for(i=1; i<= a;i++){
         forten = i % 10;
-        if(forten == 10 || forten == 20 || forten == 40 || forten == 50 || forten == 70 || forten == 80)
+        if(forten == 1 || forten == 2 || forten == 4 || forten == 5 || forten == 7 || forten == 8)
             printf("%d ",i);
         else if(i % 3 == 0 || i % 60 == 0 || i % 90 == 0 || forten % 3 == 0)
             printf("0 ");
