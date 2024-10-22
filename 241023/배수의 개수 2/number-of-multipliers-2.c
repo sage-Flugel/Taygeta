@@ -3,7 +3,7 @@
 int main() {
     int i,cnt,a;
     for(i = 0; i<10;i++){
-        scanf("%d",&a)
+        scanf("%d",&a);
         if(i % a == 1)
             cnt++;
     }
