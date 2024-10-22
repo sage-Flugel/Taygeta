@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    double double a,b;
+    double a,b;
    
-    scanf("%d %d",&a,&b);
+    scanf("%lf %lf",&a,&b);
 
     printf("%.21lf",a/b);
+   
     
 
 
