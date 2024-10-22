@@ -8,7 +8,7 @@ int main() {
         forten = i % 10;
         if(i == 10 || i == 20 || i == 40 || i == 50 || i == 70 || i == 80)
             printf("%d ",i);
-        else if(i % 3 == 0 || i % 60 == 0 || i % 90 == 0 || forten % 3 == 0)
+        else if(i % 3 == 0 || i % 60 == 0 || i % 90 == 0 || i / 3 == 3)
             printf("0 ");
         else
             printf("%d ",i);
