@@ -3,7 +3,7 @@
 int main() {
     int a,i,cnt=0;
     scanf("%d",&a);
-    for(i = 1; i<=a;i++){
+    for(i = 1; i<a;i++){
         if(i%4==0)
             cnt++;
         else if(i % 100 == 0 && i % 400 != 0)
@@ -11,6 +11,6 @@ int main() {
         
 
     }
-    printf("%d",cnt-1);
+    printf("%d",cnt);
     return 0;
 }
