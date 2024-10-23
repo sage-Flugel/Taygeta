@@ -11,7 +11,7 @@ int main() {
     */
 
     
-    for(i = 0; i<day;i++){
+    for(i = 1; i<=day;i++){
         if(i%2==0){
             if(i%3==0){
                 if(i%12==0){
