@@ -6,7 +6,7 @@ int main() {
 
     for(i = 1; i<=a;i++){
         if(i % 4 == 0){
-            else if(i % 100 == 0 && i % 400 != 0)
+            if(i % 100 == 0 && i % 400 != 0)
                 cnt = cnt;
             else
                 cnt++;
