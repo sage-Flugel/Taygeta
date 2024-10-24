@@ -7,10 +7,10 @@ int main() {
         scanf("%d",&a);
         if(0 <= a && a <=200){
             sum += a;
-            avg+=1;
+            avg++;
         }
     }
-    avg = sum/10;
+    
 
     printf("%.0lf %.1lf",sum,sum/avg);
     return 0;
