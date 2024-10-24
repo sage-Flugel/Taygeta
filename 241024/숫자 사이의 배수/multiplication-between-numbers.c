@@ -10,6 +10,6 @@ int main() {
             sum+=i;
         }
     }
-    printf("%d %.1lf",sum,sum/cnt);
+    printf("%lf %.1lf",sum,sum/cnt);
     return 0;
 }
