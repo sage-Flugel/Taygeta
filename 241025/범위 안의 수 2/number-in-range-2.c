@@ -9,6 +9,6 @@ int main() {
     }
     avg = sum/10;
 
-    printf("%d %d",sum,avg);
+    printf("%lf %.1lf",sum,avg);
     return 0;
 }
