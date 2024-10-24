@@ -8,5 +8,6 @@ int main() {
         if(b % 2 == 1 && b%3 == 0)
             sum+=b;
     }
+    printf("%d",sum);
     return 0;
 }
