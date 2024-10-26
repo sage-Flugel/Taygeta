@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,i;
+    int a,i,one;
     scanf("%d",&a);
 
     one = a % 10;
