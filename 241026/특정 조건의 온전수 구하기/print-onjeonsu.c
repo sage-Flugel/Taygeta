@@ -8,7 +8,7 @@ int main() {
 
     for(i=1;i<=a;i++){
         if(i % 2== 0 || one != 5 || (i % 3== 0 && i % 9 != 0))
-            continue
+            continue;
         else
             printf("%d ",i);
 
