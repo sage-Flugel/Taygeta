@@ -13,6 +13,6 @@ int main() {
         else
             printf("%d ",i);
     }
-    printf("%d",cnt);
+    printf("%d",i);
     return 0;
 }
