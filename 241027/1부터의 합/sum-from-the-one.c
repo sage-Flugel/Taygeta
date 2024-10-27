@@ -4,9 +4,9 @@ int main() {
     int a,i,k=0;
     scanf("%d",&a);
     for(i = 1; i<=100; i++){
-        k++;
-        if(k == a){
-            printf("%d",i)
+        k+=i;
+        if(k >= a){
+            printf("%d",i);
             break;
         }
     
