@@ -5,9 +5,12 @@ int main() {
     scanf("%d",&a);
     for(i = 1; i<=100; i++){
         k++;
-        if(k == a)
+        if(k == a){
+            printf("%d",i)
             break;
-    printf("%d ",k);
+        }
+    
+    
     }
     return 0;
 }
