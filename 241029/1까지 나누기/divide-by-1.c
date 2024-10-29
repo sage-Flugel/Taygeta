@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int a,i,cnt=0;
+    int a,i,cnt=1;
     scanf("%d",&a);
 
     for(i = 1; i<=a;i++){
+        cnt++;
         if(a <= 1){
-            cnt++;
+            
             break;
         }
         else{
-            cnt++;
             a /=i;
+            
         }
         
     }
