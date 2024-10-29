@@ -6,15 +6,15 @@ int main() {
 
     for(i = 1; i<=a;i++){
         if(a <= 1){
+            cnt++;
             break;
         }
         else{
             cnt++;
             a /=i;
-            
         }
         
     }
-    printf("%d",cnt+1);
+    printf("%d",cnt);
     return 0;
 }
