@@ -5,13 +5,13 @@ int main() {
     while(1){
         scanf("%d",&a);
         if(a < 25){
-            printf("Higher");
+            printf("Higher\n");
         }
         else if ( a > 25){
-            printf("Lower");
+            printf("Lower\n");
         }
         else{
-            printf("Good");
+            printf("Good\n");
             break;
         }
     }
