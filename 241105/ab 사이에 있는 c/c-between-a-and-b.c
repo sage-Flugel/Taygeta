@@ -6,6 +6,8 @@ int main() {
     for(i = a; i <=b;i++){
         if(i % c == 0)
             k=1;
+        if(a < c && b < c)
+            k=0;
     }
     if(k == 1)
         printf("YES");
