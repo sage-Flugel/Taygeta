@@ -6,10 +6,10 @@ int main() {
     scanf("%d %d %d",&a,&b,&c);
 
     for(i = a; i<=b;i++){
-        if(i % c == 0 || c % i == 0)
+        if(i % c == 0 )
             t = 1;
     }
-    if(t == 0)
+    if(t == 1)
         printf("NO");
     else
         printf("YES");
