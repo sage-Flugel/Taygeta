@@ -1,39 +1,36 @@
 #include <stdio.h>
 
 int main() {
-    int a,i,j,k;
-    scanf("%d",&a);
-    k = a-1;
-    if(a==1)
-        printf("*");
-    else{
-        for(i=1;i<=a+2;i++){
-            if(i % 2 == 1){
-                for(j=k;j>0;j--){
-                    printf(" ");
+    int n, i, j;
 
-                }
-                for(j=0;j<i;j++){
-                    printf("*");
-                }
-                k--;
-                printf("\n");
-            }
-        }
-        k = 1;
-        for(i=a;i>0;i--){
-            if(i % 2 == 1){
-                for(j=0;j<k;j++){
-                    printf(" ");
+    // 사용자 입력
+    scanf("%d", &n);
 
-                }
-                for(j=0;j<i;j++){
-                    printf("*");
-                }
-                k++;
-                printf("\n");
-            }
+    // 위쪽 절반
+    for (i = 0; i < n; i++) {
+        // 공백 출력
+        for (j = 0; j < n - i - 1; j++) {
+            printf(" ");
         }
+        // 별 출력
+        for (j = 0; j < (2 * i) + 1; j++) {
+            printf("*");
+        }
+        printf("\n");
     }
+
+    // 아래쪽 절반
+    for (i = n - 2; i >= 0; i--) {
+        // 공백 출력
+        for (j = 0; j < n - i - 1; j++) {
+            printf(" ");
+        }
+        // 별 출력
+        for (j = 0; j < (2 * i) + 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
