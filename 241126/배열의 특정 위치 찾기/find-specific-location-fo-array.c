@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int i
+    int i;
     double a[10] = { 0 },sum1=0,sum2=0,cnt=0;
+
     for(i=0;i<10;i++){
         scanf("%lf",&a[i]);
 
