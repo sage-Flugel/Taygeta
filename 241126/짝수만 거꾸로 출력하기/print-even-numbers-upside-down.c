@@ -14,6 +14,8 @@ int main() {
         if(a[i] % 2 == 0){
             ans[i] = a[i];
         }
+        else
+            ans[i] = -1;
     }
 
     for(i = n-1; i >= 0; i--){
