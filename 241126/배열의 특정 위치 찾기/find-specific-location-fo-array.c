@@ -2,9 +2,9 @@
 
 int main() {
     int i;
-    double a[10] = { 0 },sum1=0,sum2=0,cnt=0;
+    double a[11] = { 0 },sum1=0,sum2=0,cnt=0;
 
-    for(i=0;i<10;i++){
+    for(i=1;i<11;i++){
         scanf("%lf",&a[i]);
 
         if(i % 2 == 0)
