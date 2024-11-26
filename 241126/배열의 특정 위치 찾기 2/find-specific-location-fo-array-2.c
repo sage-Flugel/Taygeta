@@ -5,10 +5,10 @@ int main() {
 
     for(i=0;i<10;i++){
         scanf("%d",&a[i]);
-        if(a[i] % 2 == 0){
+        if(i % 2 == 0){
                 c1 += a[i];
         }
-        if(a[i] % 2 == 1){
+        if(i % 2 == 1){
                 c2 += a[i];
         }
     }
