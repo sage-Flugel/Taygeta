@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     int a,b,k=0,i;
@@ -34,9 +34,32 @@ int main() {
     return 0;
 }
 
-/*
-나머지가 나눈 수와 같다면 끝난거
-나머지가 몇인가는 관계없이 그냥 2번 나온거면 2를 제곱
-5번 나온거면 5의 제곱을 하는식이다
 
 */
+#include <stdio.h>
+
+int main() {
+    int a, b, k = 0, i;
+    int cntarr[15] = {0};
+
+    scanf("%d %d", &a, &b);
+
+    while (a >= 10) {
+        int r = a % b;
+        cntarr[r]++;
+        a = a / b;
+    }
+
+    // 마지막 남은 a도 나머지 1회 처리 필요
+    cntarr[a % b]++;
+
+    for(i = 0; i < b; i++) {
+        if(cntarr[i] > 0) {
+            k += cntarr[i] * cntarr[i];
+        }
+    }
+
+    printf("%d\n", k);
+
+    return 0;
+}
