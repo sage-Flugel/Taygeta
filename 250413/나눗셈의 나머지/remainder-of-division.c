@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int la,a,b,k=0,i;
+    int a,b,k=0,i;
     int arr[20] = {0};
     int cntarr[15] = {0};
     int last[15] = {0};
     scanf("%d %d",&a,&b);
 
     for(i=0; i<15;i++){
-        
-        arr[i] = a%b;
-        cntarr[arr[i]]++;
-        a = a / b;
+        if (a == 0) 
+            break;  // a가 0되면 종료
 
-        if(la == a)
-            break;
-        la = a;
+        arr[i] = a % b;
+        cntarr[arr[i]]++;
+
+        a = a / b;
+        
     }
-    cntarr[0]-=1;
+    
     //여기까진 0~10까지의 수가 몇번 나왔는지 세는거임
     //그러면 그 몇번 나왔는지만 빼서 제곱해줘야지
 
