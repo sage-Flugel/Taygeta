@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     int a,b;
@@ -42,6 +42,31 @@ int main() {
 
     printf("%d",cnt);
     return 0;
+}*/
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    int onecnt[10] = {0};
+    int cnt = 0;
+
+    while (a > 0) {
+        int digit = a % b;
+        if (digit < 10) 
+            onecnt[digit]++;
+        a /= b;
+    }
+
+    for (int i = 0; i < 10; i++) {
+        if (onecnt[i] > 0)
+            cnt += onecnt[i] * onecnt[i];
+    }
+
+    printf("%d", cnt);
+    return 0;
 }
+
 
 
