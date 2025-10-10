@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int a,b;
@@ -7,7 +7,7 @@ int main() {
     int onecnt[10] = {0};
     int cnt = 0;
 
-    for(int i = 0; i<12; i++){
+    while(a>0){
         if(a % b == 0)
             onecnt[0]++;
         else if(a % b == 1)
@@ -30,9 +30,6 @@ int main() {
             onecnt[9]++;
 
         a/=b;
-
-        if(a < b)
-            break;
     }
 
     for(int i=0;i<10;i++){
@@ -42,31 +39,4 @@ int main() {
 
     printf("%d",cnt);
     return 0;
-}*/
-#include <stdio.h>
-
-int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-
-    int onecnt[10] = {0};
-    int cnt = 0;
-
-    while (a > 0) {
-        int digit = a % b;
-        if (digit < 10) 
-            onecnt[digit]++;
-        a /= b;
-    }
-
-    for (int i = 0; i < 10; i++) {
-        if (onecnt[i] > 0)
-            cnt += onecnt[i] * onecnt[i];
-    }
-
-    printf("%d", cnt);
-    return 0;
 }
-
-
-
