@@ -5,7 +5,6 @@ int main() {
     int a[100];
 
     scanf("%d",&n);
-    scanf("%d",&m);
 
     for(int i=0;i<n;i++){
         scanf("%d ",&a[i]);
@@ -14,11 +13,11 @@ int main() {
             cnt++;
 
         if(cnt == 3){
-            ans = i;
+            ans = i+1;
             break;
             }
     }
-    printf("%d",ans-1);
+    printf("%d",ans);
 
     return 0;
 }
