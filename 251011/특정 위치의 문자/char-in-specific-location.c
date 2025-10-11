@@ -10,7 +10,7 @@ int main() {
 
 	int idx = -1;
 
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < 6; i++) {
 		if (word[i] == fnd) {
 			idx = i;
 		}
