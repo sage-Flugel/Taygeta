@@ -30,7 +30,7 @@ int main() {
             onecnt[9]++;
 
         a/=b;
-    }while(a>2);
+    }while(a>1);
 
     for(int i=0;i<10;i++){
         if(onecnt[i] > 0)
