@@ -7,7 +7,7 @@ int main() {
     int onecnt[10] = {0};
     int cnt = 0;
 
-    while(a>2){
+    do{
         if(a % b == 0)
             onecnt[0]++;
         else if(a % b == 1)
@@ -30,7 +30,7 @@ int main() {
             onecnt[9]++;
 
         a/=b;
-    }
+    }while(a>2);
 
     for(int i=0;i<10;i++){
         if(onecnt[i] > 0)
