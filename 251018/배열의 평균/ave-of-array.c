@@ -5,7 +5,7 @@ int main() {
     int i,j;
     float row[2]={0};
     float col[4]={0};
-    float ans;
+    float ans = 0;
 
     for(i=0;i<2;i++){
         for(j=0;j<4;j++){
