@@ -9,6 +9,6 @@ int main() {
 
     cout << fixed;
     cout.precision(1);
-    cout<< ((float)a + (float)b)/2
+    cout<< ((float)a + (float)b)/2;
     return 0;
 }
