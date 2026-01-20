@@ -8,6 +8,6 @@ int main() {
         cout << a;
     }
     else
-        cout << a << '\n' << "minus"
+        cout << a << '\n' << "minus";
     return 0;
 }
