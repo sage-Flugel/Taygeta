@@ -5,7 +5,7 @@ using namespace std;
 int plus(int a){
     int ans=0;
     for(int i = 0; i < a; i++){
-        ans+=i
+        ans+=i;
     }
     return ans/10;
 }
