@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int plus(int a){
+int sum(int a){
     int ans=0;
-    for(int i = 0; i < a; i++){
+    for(int i = 1; i <= a; i++){
         ans+=i;
     }
     return ans/10;
@@ -14,7 +14,7 @@ int main() {
     int N;
     cin >> N;
 
-    cout << plus(N);
+    cout << sum(N);
 
     return 0;
 }
