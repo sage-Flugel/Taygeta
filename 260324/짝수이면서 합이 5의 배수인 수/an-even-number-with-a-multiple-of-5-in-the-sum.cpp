@@ -5,7 +5,7 @@ using namespace std;
 int cnter(int a){
     int ans;
 
-    if(a % 2 == 0 && (a/10)% 5 == 0 && (a%10)% 5)
+    if(a % 2 == 0 && ((a/10)+(a%10)) % 5 == 0)
         ans = 1;
     else
         ans = 0;
