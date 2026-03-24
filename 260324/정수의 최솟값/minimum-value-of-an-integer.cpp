@@ -3,20 +3,10 @@
 using namespace std;
 
 int low(int x,int y,int z){
-    int ans;
-    if(x >= y)
+    int ans = x;
+    if(ans > y)
         ans = y;
-    if(y >= x)
-        ans = x;
-
-    if(z >= y)
-        ans = y;
-    if(y >= z)
-        ans = z;
-
-    if(z >= x)
-        ans = x;
-    if(x >= z)
+    else if(ans > z)
         ans = z;
 
     return ans;
