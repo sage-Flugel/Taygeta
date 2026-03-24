@@ -4,9 +4,10 @@ using namespace std;
 
 int low(int x,int y,int z){
     int ans = x;
+
     if(ans > y)
         ans = y;
-    else if(ans > z)
+    if(ans > z)
         ans = z;
 
     return ans;
