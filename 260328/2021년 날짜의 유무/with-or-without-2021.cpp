@@ -3,34 +3,28 @@
 using namespace std;
 
 bool clnder(int month,int day){
-    if(month >= 13)
+    if(month > 12)
         return false;
-    if(day >= 32)
+    if(day > 31)
         return false;
 
-    if(month == 2)
-        if(day > 28)
+    if(month == 2){
+        if(day > 28){
             return false;
-    
-    if(month <= 7 && month % 2 == 1){ //31일 달
-        if(day > 32)
+        }
+    }
+
+    if(month == 4 || month == 6 || month == 9 || month == 11){// 30일달
+        if(day > 30)
             return false;
     }
-    else if(month == 4 || month == 6){
-        if(day > 31)
-            return false;
-    }
-    if(month >= 8 && month % 2 == 0){ //31일 달
-        if(day > 32)
-            return false;
-    }
-    else if(month == 9 || month == 11){
+    else{
         if(day > 31)
             return false;
     }
 
     return true;
-        
+
 }
 
 int main() {
