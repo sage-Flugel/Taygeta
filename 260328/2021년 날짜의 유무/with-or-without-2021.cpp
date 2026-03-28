@@ -3,9 +3,9 @@
 using namespace std;
 
 bool clnder(int month,int day){
-    if(month > 13)
+    if(month >= 13)
         return false;
-    if(day > 32)
+    if(day >= 32)
         return false;
 
     if(month == 2)
