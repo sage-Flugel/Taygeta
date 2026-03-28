@@ -7,7 +7,7 @@ int cnter(int a, int b){
     int cnt = 0;
 
     for(int i = a; i <= b; i++){
-        if(a % 2 != 0 && i % 3 != 0 && i % 9 == 0 && i % 10 != 5)
+        if(i % 2 != 0 && !(i % 3 == 0 && i % 9 != 0) && i % 10 != 5)
             cnt++;
     }
 
