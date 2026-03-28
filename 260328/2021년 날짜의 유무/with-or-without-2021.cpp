@@ -7,24 +7,25 @@ bool clnder(int month,int day){
         return false;
     if(day > 32)
         return false;
+
     if(month == 2)
         if(day > 28)
             return false;
     
-    if(month <= 7 && month % 2 == 1){
+    if(month <= 7 && month % 2 == 1){ //31일 달
         if(day > 32)
             return false;
     }
     else if(month == 4 || month == 6){
-        if(day > 30)
+        if(day > 31)
             return false;
     }
-    if(month >= 8 && month % 2 == 0){
+    if(month >= 8 && month % 2 == 0){ //31일 달
         if(day > 32)
             return false;
     }
     else if(month == 9 || month == 11){
-        if(day > 30)
+        if(day > 31)
             return false;
     }
 
