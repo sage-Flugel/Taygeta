@@ -19,7 +19,7 @@ bool clnder(int month,int day){
         if(day > 30)
             return false;
     }
-    if(month > 7 && month % 2 == 0){
+    if(month >= 8 && month % 2 == 0){
         if(day > 32)
             return false;
     }
